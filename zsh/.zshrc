@@ -1,2 +1,3 @@
 # zshrc
 
+PROMPT='%n in %~ -> '
