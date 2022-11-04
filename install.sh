@@ -35,7 +35,9 @@ fi
 git clone https://github.com/powerline/fonts.git --depth=1
 # install
 cd fonts
+echo "installing fonts"
 ./install.sh
 # clean-up a bit
+echo "cleaning up fonts"  
 cd ..
 rm -rf fonts
