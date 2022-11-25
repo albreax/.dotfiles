@@ -1,4 +1,8 @@
 alias rmnm="find . -name \"node_modules\" -type d -prune -print | xargs du -chs"
+alias pn=pnpm
+alias pni="pn install"
+
+. "$HOME/.cargo/env"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
