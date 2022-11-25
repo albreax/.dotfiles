@@ -28,3 +28,16 @@ done
 if ! [ -d ~/.tmux/plugins/tpm ]; then
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
+
+### install fonts ###
+
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+echo "installing fonts"
+./install.sh
+# clean-up a bit
+echo "cleaning up fonts"  
+cd ..
+rm -rf fonts
