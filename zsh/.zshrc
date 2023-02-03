@@ -1,3 +1,5 @@
+source ~/.zshenv
+
 alias rmnm="find . -name \"node_modules\" -type d -prune -print | xargs du -chs"
 alias pn=pnpm
 alias pni="pn install"
